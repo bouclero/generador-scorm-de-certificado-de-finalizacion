@@ -2,6 +2,11 @@
 
 Este proyecto es un paquete SCORM (Sharable Content Object Reference Model) diseñado para generar una constancia de finalización de un curso y comunicarse con un LMS (Learning Management System) para registrar que el curso ha sido completado.
 
+![Ventana de inicio](src/ventana-inicio.jpg)
+
+![Certificado ejemplo](src/cerificado.jpg)
+
+
 ---
 ## Características
 
