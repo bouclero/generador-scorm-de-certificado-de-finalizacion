@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificado de Finalización</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="initial-view">
+        <button id="generate-certificate-btn" aria-label="Generar certificado de finalización">Generar Constancia</button>
+        <p id="scorm-status-message" style="font-size: 0.9em; color: #666; margin-top: 10px;"></p>
+    </div>
+
+    <div id="certificate-view">
+        <h1>Constancia de Finalización</h1>
+        <p>Esta constancia se otorga a:</p>
+        <p class="student-name" id="student-name">[Nombre del Estudiante]</p>
+        <p>Por haber completado satisfactoriamente el curso:</p>
+        <p class="course-name" id="course-name-placeholder">[Nombre del Curso]</p>
+        <p>Emitida el:</p>
+        <p class="completion-date" id="completion-date">[Fecha de Finalización]</p>
+        <p class="footer-note">Esta es una constancia digital generada por tecnologiaeinovacion</p>
+    </div>
+    
+    <button id="download-pdf-btn" style="display: none;">Descargar PDF</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
